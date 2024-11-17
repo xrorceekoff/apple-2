@@ -1,0 +1,200 @@
+#gap {
+    width: 65%;
+    margin: 0 auto;
+}
+
+#spanfirst,
+#spansecond,
+#spanthirt,
+#spanfour,
+#spanfive,
+#spansix,
+#spanseven{
+    height: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+ margin: 0;
+ padding: 0;
+ background-color: white;
+ cursor: pointer;
+ 
+ width: 100%;
+}
+
+
+
+
+
+
+
+#btn {
+    height: 20px;
+    width: 20px;
+}
+
+#header {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(129, 126, 126);
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+     position: fixed; 
+    transition: color, 0.5s;
+    z-index: 105;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 1px solid black;
+}
+
+
+#store:hover,
+#mac:hover,
+#ipad:hover,
+#iphone:hover,
+#watch:hover,
+#vision:hover,
+#airpods:hover,
+#home:hover,
+#enter:hover,
+#acc:hover,
+#support:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+#card {
+    background-color: rgb(255, 255, 255);
+     position: fixed;   
+      width: 100%;
+    z-index: 100;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+}
+
+#images{
+    background-image: url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-pro-model-unselect-gallery-1-202409?wid=5120&hei=2880&fmt=webp&qlt=70&.v=aWs5czA5aDFXU0FlMGFGRlpYRXk2UWFRQXQ2R0JQTk5udUZxTkR3ZVlpTEJnOG9obkp6NERCS3lnVm1tcnlVUjBoUVhuTWlrY2hIK090ZGZZbk9HeE1xUVVnSHY5eU9CcGxDMkFhalkvT0NuWUpOMGpEMHVTZEtYYVA3c1B3UzVmbW94YnYxc1YvNXZ4emJGL0IxNFp3&traceId=1');
+    width: 760px;
+    height:450px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-left: 80px;
+    position: sticky;
+}
+#image{
+    background-image: url('https://media.wired.com/photos/66df337dfb7d4953b6dc5f31/master/w_1920,c_limit/Screenshot%202024-09-09%20at%2010.42.09%E2%80%AFAM.png');
+    width: 760px;
+    height:450px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-left: 80px;
+    position: sticky;
+}
+
+
+.pasga{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    width: 80%;
+    
+}
+.pas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+ 
+    width: 80%;
+    
+}
+.pa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+   
+    width: 80%;
+    
+}
+.paskuda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+   overflow: hidden;
+    width: 80%;
+    border-bottom:3px solid rgb(201, 201, 201) ;
+}
+
+#djalla{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djala{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djall{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djalll{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djallll{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djalllll{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djallllll{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djalllllll{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djallllllll{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djalllllllll{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djallllllllll{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djalllllllllll{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+#djallllllllllll{
+    border-bottom: 3px solid rgb(201, 201, 201) ;
+   overflow: hidden;
+}
+a:visited{
+    color:blue;
+}
+#arrowong{
+    background-color:transparent;
+    
+}
